@@ -1,0 +1,9 @@
+extend type Query {
+  links: [Link!]!
+}
+
+# type LinkQuery
+
+# extend type Query {
+#     link: LinkQuery!
+# }

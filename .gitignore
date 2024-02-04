@@ -1,0 +1,3 @@
+internal/gql/runtime/generated.go
+internal/gql/model/generated.go
+bin/migrate
