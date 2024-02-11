@@ -25,7 +25,11 @@ func (r *mutationResolver) CreateLink(ctx context.Context, input model.NewLink) 
 	link.Title = input.Title
 	link.Address = input.Address
 	linkID := link.Save()
-	return &model.Link{ID: strconv.FormatInt(linkID, 10), Title: link.Title, Address: link.Address}, nil
+	return &model.Link{
+		ID:      strconv.FormatInt(linkID, 10),
+		Title:   link.Title,
+		Address: link.Address,
+	}, nil
 }
 
 // CreateUser is the resolver for the createUser field.
