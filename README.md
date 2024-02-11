@@ -1,4 +1,4 @@
-# graphql-go-tutorial
+# howto-graphql-go
 
 https://www.howtographql.com/graphql-go/0-introduction/
 
